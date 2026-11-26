@@ -2457,6 +2457,13 @@ pages:
       azure-ai-foundry:
         description: Azure AI Foundry
         title: Azure AI Foundry
+      boson-ai-speech:
+        description: boson.ai
+        errors:
+          provider-initialization-failed: Failed to initialize the Boson AI speech provider.
+        playground:
+          default-text: Hello! This is a test of Higgs TTS.
+        title: Boson AI
       minimax:
         description: minimaxi.com
         title: MiniMax

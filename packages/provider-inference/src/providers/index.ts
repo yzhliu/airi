@@ -7,6 +7,7 @@ import { providerAnthropic } from './cloud/anthropic'
 import { providerAtlasCloud } from './cloud/atlascloud'
 import { providerAzureAIFoundry } from './cloud/azure-ai-foundry'
 import { providerAzureOpenAI } from './cloud/azure-openai'
+import { providerBosonAISpeech } from './cloud/boson-ai-speech'
 import { providerBytePlus } from './cloud/byteplus'
 import { providerBytePlusCodingPlan } from './cloud/byteplus-coding-plan'
 import { providerCerebrasAI } from './cloud/cerebras-ai'
@@ -93,6 +94,7 @@ export const portableProviderDefinitions = eraseProviderDefinitions(
   providerAtlasCloud,
   providerAzureAIFoundry,
   providerAzureOpenAI,
+  providerBosonAISpeech,
   providerBytePlus,
   providerBytePlusCodingPlan,
   providerCerebrasAI,

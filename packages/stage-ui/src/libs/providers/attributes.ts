@@ -50,6 +50,7 @@ const providerAttributesById = {
   'atlascloud': paidCloud,
   'azure-ai-foundry': paidCloud,
   'azure-openai': paidCloud,
+  'boson-ai-speech': paidCloud,
   'browser-local-audio-speech': freeLocal,
   'browser-local-audio-transcription': freeLocal,
   'browser-web-speech-api': freeLocal,
